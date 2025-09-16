@@ -20,9 +20,9 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'moontv',
+      id: 'hxp',
       // `name` is used at status page and callback message
-      name: 'moontv',
+      name: 'hxp',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
