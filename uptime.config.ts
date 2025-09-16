@@ -20,9 +20,9 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'am.809098.xyz',
+      id: 'moontv',
       // `name` is used at status page and callback message
-      name: '博客',
+      name: 'moontv',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
@@ -55,9 +55,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
+      target: 'https://hxping-my.hf.space'
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      statusPageLink: 'https://hxping-my.hf.space',
       timeout: 10000,
     },
   ],
